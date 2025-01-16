@@ -88,6 +88,9 @@
     margin: 10px 10px 10px 0px;
     border: 2px solid rgb(247, 243, 243);
 }
+.card1:hover, .card2:hover, .card3:hover{
+    color: #0dac9f;
+}
 
 .card p{
     opacity: 60%;
@@ -158,6 +161,15 @@
     margin:10px 0px 10px 10px ;
     justify-content: center;
     border-radius: 5px;
+}
+.btn1:hover{
+    background-color: #053b79;
+}
+.btn2:hover{
+    background-color: #06702d;
+}
+.btn3:hover{
+    background-color: #b6750d;
 }
 .btn2{
     background-color: #09A15C;
@@ -260,6 +272,9 @@ table th{
     font-size: 14px;
     margin-top: 5px; 
 }
+.readMoreBtn button:hover{
+    background-color: #09A15C;
+}
 .donateTitle{
     text-align: center;
     margin: 10px;
@@ -312,7 +327,11 @@ table th{
     font-size: 18px;
     color: #ffffff;
     border: none;
+    border-radius: 5px;
     background-color: #006A50;
+}
+.donationButton:hover{
+    background-color: #09A15C;
 }
 .subscribeContainer{
     width: 100%;
@@ -345,6 +364,9 @@ table th{
     background-color:#006A50 ;
     color: #ffffff;
 
+}
+.subscribeContainer button:hover{
+    background-color: #09A15C;
 }
 .subscribeContainer small{
     display: block;
